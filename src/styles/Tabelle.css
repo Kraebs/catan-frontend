@@ -1,0 +1,88 @@
+/* Tabelle.css */
+@import '../style.css';
+
+/* --- MODERNE TABS --- */
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  background-color: #f2f2f2;
+  color: var(--color-black);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tab-button:hover {
+  background-color: #ffe5e5;
+}
+
+.tab-button.active {
+  background-color: var(--color-catan-rot);
+  color: var(--color-white);
+}
+
+/* ----- TABELLE ----- */
+.table thead {
+  background-color: var(--color-catan-rot);
+  color: var(--color-white);
+  font-weight: bold;
+}
+
+.table tbody tr {
+  background-color: var(--color-light-rot); /* sanftes rot */
+}
+
+.table tbody tr:hover {
+  background-color: #ffe5e5;
+}
+
+.table {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  font-size: 0.95rem;
+}
+
+/* ----- BUTTONS ----- */
+.btn-outline-dark {
+  background-color: var(--color-catan-rot);
+  color: var(--color-white);
+  border: none;
+  font-weight: 600;
+  padding: 0.5rem 1.2rem;
+  transition: background-color 0.2s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--color-catan-rot-hover);
+  color: var(--color-white);
+}
+
+/* ----- BADGE ----- */
+.badge.bg-success {
+  background-color: var(--color-catan-rot);
+}
+
+/* ----- RESPONSIVE ----- */
+@media (max-width: 768px) {
+  .table th,
+  .table td {
+    font-size: 0.85rem;
+    padding: 0.4rem;
+  }
+
+  .nav-tabs .nav-link {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+}

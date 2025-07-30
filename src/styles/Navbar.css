@@ -1,0 +1,53 @@
+/* styles/navbar.css */
+
+.navbar {
+  background-color: var(--color-catan-rot);
+}
+
+.navbar-brand img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.nav-link {
+  transition: all 0.3s ease;
+  color: var(--color-white) !important;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+
+.active-nav {
+  background-color: var(--color-catan-gold) !important;
+  color: var(--color-white) !important;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.admin-icon-container .nav-link {
+  font-size: 1.2rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 992px) {
+  .navbar-nav .nav-link {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .admin-icon-container {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .admin-icon-container .nav-link {
+    width: 48px;
+    height: 48px;
+    font-size: 1.4rem;
+  }
+}

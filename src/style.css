@@ -1,0 +1,31 @@
+
+/* /style.css */
+
+:root {
+  --color-catan-rot: #D62111;
+  --color-catan-rot-hover: #880000;
+  --color-catan-gold: #FFD700;
+  --color-catan-yellow: #FEEC81;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-light-rot: #FFF3F3;
+  --font-default: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-default);
+  background-color: var(--color-catan-yellow); /* Einheitlich */
+  color: var(--color-black);
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: var(--font-default);
+}
