@@ -1,7 +1,7 @@
-import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import QuoteSection from '../components/Quote';
+import React from 'react';
 
 // Globale Styles importieren (z.B. einmal in App.tsx oder hier falls noch nicht)
 import '../style.css';

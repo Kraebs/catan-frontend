@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FaCogs } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';

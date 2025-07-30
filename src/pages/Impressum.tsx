@@ -1,7 +1,7 @@
-import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Container } from 'react-bootstrap';
+import React from 'react';
 
 const Impressum: React.FC = () => {
   return (
