@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { FaCogs } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/navbar.css';
+import '../styles/Navbar.css';
 
 const Navbar = () => {
   const location = useLocation();
